@@ -1,6 +1,7 @@
 fuction getIMC(){
-  var peso=parcefloat(document.getElementby id ("Peso").value)
+  var peso=parceFloat(document.getElementById(´Peso´).value);
+  var altura=parseFloat(document.getElementById(´Altura´).value);
   var imc= peso/(altura+altura) 
   document.getElementbyId("IMC").innerHTML=IMC;
 }
-  
+ 
